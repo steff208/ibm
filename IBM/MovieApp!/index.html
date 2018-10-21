@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Movie Info Center</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+
+    <div class ="gridContainer">
+      <div class = "top"> 
+        <div class="row">
+          <div class="col-1-of-5 img-1"><img src="images/TM.jpg"   height="320" width="228"></div>
+          <div class="col-1-of-5 img-2"><img src="images/V.jpg"    height="320" width="228"></div>
+          <div class="col-1-of-5 img-3"><img src="images/AIW.jpg"  height="320" width="228"></div>
+          <div class="col-1-of-5 img-4"><img src="images/TN.jpg"   height="320" width="228"></div>
+          <div class="col-1-of-5 img-5"><img src="images/DP2.jpg"  height="320" width="228"></div>
+          <h1 class="heading"> The Movie Info Center </h1>
+        </div>
+      </div>
+
+
+      <div class = "searchBox">
+        <div class = "container">
+          <h3 class="text-center">Search For Any Movie</h3>
+          <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  
+    
+    
+
+
+    <div class="Output">
+      <div class="containerMovies">
+        <div id="movies" class="row"></div>
+      </div>
+    </div>
+
+    
+
+      
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
